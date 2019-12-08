@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/message/message",
+    "pages/order/oreder",
+    "pages/my/my"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath":"assets/home.png",
+        "selectedIconPath": "assets/home.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "iconPath": "assets/message.png",
+        "selectedIconPath": "assets/message.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/order/oreder",
+        "iconPath": "assets/order.png",
+        "selectedIconPath": "assets/order.png",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "assets/my.png",
+        "selectedIconPath": "assets/my.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "环岛",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
